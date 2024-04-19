@@ -1,0 +1,24 @@
+name: inventario_mariscos_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Define las dependencias de tu proyecto
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^0.14.0
+  http: ^0.13.3  # Versión específica del paquete http
+  fl_chart: ^0.36.0 # Versión más reciente disponible al momento de escribir esto
+  charts_flutter: ^0.12.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# Define la versión mínima del SDK
+environment:
+  sdk: ">=2.12.0 <3.0.0"
